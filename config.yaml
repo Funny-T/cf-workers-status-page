@@ -34,6 +34,7 @@ monitors:
 
   - id: ip
     name: ip
+    description: 'get your public ip address.'
     url: 'https://ip.20140301.xyz/'
     method: GET
     expectStatus: 200
