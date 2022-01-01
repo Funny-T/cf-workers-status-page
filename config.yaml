@@ -38,3 +38,10 @@ monitors:
     url: 'https://ip.20140301.xyz/'
     method: GET
     expectStatus: 200
+    
+  - id: cloudflare dns
+    name: cloudflare dns
+    description: 'cloudflare dns over https.'
+    url: 'https://cloudflare-dns.com/dns/'
+    method: GET
+    expectStatus: 200
