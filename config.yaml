@@ -26,7 +26,7 @@ monitors:
 
   - id: why not baidu
     name: why not baidu
-    description: 'ipv6 only.'
+    description: 'ipv6 only,redirect to baidu search.'
     url: 'https://web.20140301.xyz'
     method: GET
     expectStatus: 200
@@ -34,7 +34,7 @@ monitors:
 
   - id: ip
     name: ip
-    description: 'get your public ip address.'
+    description: 'get your public ip address over cloudflare.'
     url: 'https://ip.20140301.xyz/'
     method: GET
     expectStatus: 200
