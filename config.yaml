@@ -32,6 +32,13 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: whoogle
+    name: whoogle
+    description: 'whoogle search.'
+    url: 'https://20150412.xyz'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
   - id: ip
     name: ip
     description: 'get your public ip address over cloudflare.'
