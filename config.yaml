@@ -5,7 +5,7 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
+  allmonitorsOperational: '所以站点运行正常'
   notAllmonitorsOperational: 'Not All Systems Operational'
   monitorLabelOperational: 'Operational'
   monitorLabelNotOperational: 'Not Operational'
@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: piximg # unique identifier
-    name: piximg
+    name: piximg proxy
     description: 'piximg proxy.' # default=empty
     url: 'https://piximg.20140301.xyz' # URL to fetch
     method: GET # default=GET
@@ -33,14 +33,14 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: whoogle
-    name: whoogle
+    name: whoogle search
     description: 'whoogle search.'
     url: 'https://20150412.xyz'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
   - id: ip
-    name: ip
+    name: ip address
     description: 'get your public ip address over cloudflare.'
     url: 'https://ip.20140301.xyz/'
     method: GET
